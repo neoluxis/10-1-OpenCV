@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#182060",
+			"titleBar.activeBackground": "#222D86",
+			"titleBar.activeForeground": "#F9FAFE"
+		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"console": "integratedTerminal",
+		"configurations": [
+			
+		]
+	}
+}
