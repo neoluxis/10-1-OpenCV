@@ -1,12 +1,7 @@
 from ParseInp import Parser
 import cv2 as cv
 
-def importer(arr):
-    for a in arr:
-        try:
-            import td.a
-        except Exception:
-            print(f"Failed to import package ts.{a}. Skipping...")
+tasklist = []
 
 def Kam():
     """
