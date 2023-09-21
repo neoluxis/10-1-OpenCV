@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "8f379c2b79e665c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4eb2af5e3b373bb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb8278b77fff2647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-FifthSection/4_2_图像几何变换.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e755a5409bc753e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "adbd6e669619254e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a2e0d71c0d967cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fffbcb03301d6530",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1a04d6484ffa213",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e440cb7e5b69e916",
+    "type": "split",
+    "children": [
+      {
+        "id": "f836d6ed340b998c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43688631ffef153a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5-FifthSection/4_2_图像几何变换.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c281ec75cceaa178",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5-FifthSection/4_2_图像几何变换.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec645f88247ce3cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba9c3e96df89754d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5-FifthSection/4_2_图像几何变换.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "bb8278b77fff2647",
+  "lastOpenFiles": [
+    "4-FourthSection/3_3_性能衡量和提升技术.md",
+    "0-README.md",
+    "stylesheets/extra.css~"
+  ]
+}
