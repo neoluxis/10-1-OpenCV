@@ -1,7 +1,7 @@
 # Canny边缘检测
 
 
- 
+
    
 
 ### 目标
@@ -24,9 +24,9 @@ Canny Edge Detection是一种流行的边缘检测算法。它由John F. Canny�
 
    然后使用Sobel核在水平和垂直方向上对平滑的图像进行滤波，以在水平方向(Gx)和垂直方向(Gy)上获得一阶导数。从这两张图片中，我们可以找到每个像素的边缘渐变和方向，如下所示：
 
-    $$
-    Edge\_Gradient \; (G) = \sqrt{G_x^2 + G_y^2} \\ Angle \; (\theta) = \tan^{-1} \bigg(\frac{G_y}{G_x}\bigg)
-    $$
+   $$
+   Edge\_Gradient \; (G) = \sqrt{G_x^2 + G_y^2} \\ Angle \; (\theta) = \tan^{-1} \bigg(\frac{G_y}{G_x}\bigg)
+   $$
    
    渐变方向始终垂直于边缘。将其舍入为代表垂直，水平和两个对角线方向的四个角度之一。
 
@@ -47,7 +47,7 @@ Canny Edge Detection是一种流行的边缘检测算法。它由John F. Canny�
    边缘A在`maxVal`之上，因此被视为“确定边缘”。尽管边C低于`maxVal`，但它连接到边A，因此也被视为有效边，我们得到了完整的曲线。但是边缘B尽管在`minVal`之上并且与边缘C处于同一区域，但是它没有连接到任何“确保边缘”，因此被丢弃。因此，非常重要的一点是我们必须相应地选择`minVal`和`maxVal`以获得正确的结果。
 
     在边缘为长线的假设下，该阶段还消除了小像素噪声。
- 
+
     因此，我们最终得到的是图像中的强边缘。
 
 ### OpenCV中的Canny Edge检测
