@@ -4,51 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e0bf38e-79d3-4f51-ae6b-4e6c92ca7cea" name="更改" comment="update notes">
-      <change afterPath="$PROJECT_DIR$/Learn/ImageTransformation/surroundRect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_1_图像去噪.assets/nlm_multi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_1_图像去噪.assets/nlm_patch-1695540020580-45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_1_图像去噪.assets/nlm_patch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_1_图像去噪.assets/nlm_result1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_2_图像修补.assets/inpaint_basics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_2_图像修补.assets/inpaint_result-1695540129724-53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_2_图像修补.assets/inpaint_result.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/approx-1695524165084-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/approx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/boundingrect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/circumcircle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/convexitydefects-1695524165084-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/convexitydefects.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.assets/fitellipse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/7-Seventh/6_3_光流.assets/optical_flow_basic1-1695539762934-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/7-Seventh/6_3_光流.assets/optical_flow_basic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/7-Seventh/6_3_光流.assets/opticalfb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/7-Seventh/6_3_光流.assets/opticalflow_lk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_1_相机校准.assets/calib_pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_1_相机校准.assets/calib_radial-1695527744115-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_1_相机校准.assets/calib_radial.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_1_相机校准.assets/calib_result.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_2_姿态估计.assets/pose_1-1695527918823-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_2_姿态估计.assets/pose_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_2_姿态估计.assets/pose_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/9-Ninth/8_1_理解KNN.assets/knn_simple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/9-Ninth/8_1_理解KNN.assets/knn_theory-1695539917677-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCVTutorials/9-Ninth/8_1_理解KNN.assets/knn_theory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singular/coloredBlob.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singular/viewHSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2023_09_13_opencv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2023_09_13_opencv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learn/ImageTransformation/轮廓.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learn/ImageTransformation/轮廓.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_1_图像去噪.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_1_图像去噪.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_2_图像修补.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/10-Tenth/9_2_图像修补.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/5-FifthSection/4_9_2_轮廓特征.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/7-Seventh/6_3_光流.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/7-Seventh/6_3_光流.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_1_相机校准.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_1_相机校准.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_2_姿态估计.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/8-Eighth/7_2_姿态估计.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCVTutorials/9-Ninth/8_1_理解KNN.md" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCVTutorials/9-Ninth/8_1_理解KNN.md" afterDir="false" />
-    </list>
+    <list default="true" id="5e0bf38e-79d3-4f51-ae6b-4e6c92ca7cea" name="更改" comment="识别黑线，需要添加识别角度" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/proj/10-1-OpenCV",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/proj/10-1-OpenCV&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -126,6 +82,7 @@
       <workItem from="1695457646064" duration="3006000" />
       <workItem from="1695517956701" duration="147000" />
       <workItem from="1695520878851" duration="15697000" />
+      <workItem from="1695604751545" duration="18278000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -175,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695276928032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成色块识别任务">
+      <option name="closed" value="true" />
+      <created>1695608328929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695608328929</updated>
+    </task>
+    <task id="LOCAL-00008" summary="识别黑线，需要添加识别角度">
+      <option name="closed" value="true" />
+      <created>1695632570651</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695632570651</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,16 +173,19 @@
     <MESSAGE value="update" />
     <MESSAGE value="pull images" />
     <MESSAGE value="update notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="update notes" />
+    <MESSAGE value="完成色块识别任务" />
+    <MESSAGE value="识别黑线，需要添加识别角度" />
+    <option name="LAST_COMMIT_MESSAGE" value="识别黑线，需要添加识别角度" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$gradient.coverage" NAME="gradient 覆盖结果" MODIFIED="1695275945554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$colorBlobAndLine.coverage" NAME="colorBlobAndLine 覆盖结果" MODIFIED="1695632540275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$EdgeDetect.coverage" NAME="EdgeDetect 覆盖结果" MODIFIED="1695276409409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$.coverage" NAME="轮廓 覆盖结果" MODIFIED="1695517970070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
     <SUITE FILE_PATH="coverage/10_1_OpenCV$surroundRect.coverage" NAME="surroundRect 覆盖结果" MODIFIED="1695527641037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
-    <SUITE FILE_PATH="coverage/10_1_OpenCV$viewHSV.coverage" NAME="viewHSV 覆盖结果" MODIFIED="1695545920363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$viewHSV.coverage" NAME="viewHSV 覆盖结果" MODIFIED="1695622404651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
     <SUITE FILE_PATH="coverage/10_1_OpenCV$.coverage" NAME="轮廓 覆盖结果" MODIFIED="1695527125675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
-    <SUITE FILE_PATH="coverage/10_1_OpenCV$coloredBlob.coverage" NAME="coloredBlob 覆盖结果" MODIFIED="1695554477514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$coloredBlob.coverage" NAME="coloredBlob 覆盖结果" MODIFIED="1695613923315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$Edges.coverage" NAME="Edges 覆盖结果" MODIFIED="1695301673471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$GeometriTransform.coverage" NAME="GeometriTransform 覆盖结果" MODIFIED="1695300088266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
   </component>
