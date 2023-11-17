@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e0bf38e-79d3-4f51-ae6b-4e6c92ca7cea" name="更改" comment="lkj">
+    <list default="true" id="5e0bf38e-79d3-4f51-ae6b-4e6c92ca7cea" name="更改" comment="finished 3, 4&#10;2 skipped">
+      <change afterPath="$PROJECT_DIR$/Learn/ImageTransformation/LineFeature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singular/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singular/multip.zi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singular/n.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/2023_09_13_opencv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2023_09_13_opencv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singular/ColorShapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Singular/ColorShapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singular/colorBlobAndLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Singular/colorBlobAndLine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +78,58 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Python.BarCode">
+    <configuration name="BarCode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2023_09_13_opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Singular" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Singular/BarCode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ColorShapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2023_09_13_opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Singular" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Singular/ColorShapes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.BarCode" />
+        <item itemvalue="Python.ColorShapes" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -87,6 +148,12 @@
       <workItem from="1695604751545" duration="18278000" />
       <workItem from="1695639393244" duration="1719000" />
       <workItem from="1695777158043" duration="274000" />
+      <workItem from="1695778257761" duration="9569000" />
+      <workItem from="1696230070700" duration="34000" />
+      <workItem from="1696230175172" duration="4641000" />
+      <workItem from="1696729764410" duration="4643000" />
+      <workItem from="1696736470923" duration="5893000" />
+      <workItem from="1696768795931" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -160,7 +227,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695639924306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finish 2, color and shape. 2 skipped">
+      <option name="closed" value="true" />
+      <created>1695787654086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695787654086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finished 3, 4&#10;2 skipped">
+      <option name="closed" value="true" />
+      <created>1695788134924</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695788134924</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,13 +271,19 @@
     <MESSAGE value="完成色块识别任务" />
     <MESSAGE value="识别黑线，需要添加识别角度" />
     <MESSAGE value="lkj" />
-    <option name="LAST_COMMIT_MESSAGE" value="lkj" />
+    <MESSAGE value="finish 2, color and shape. 2 skipped" />
+    <MESSAGE value="finished 3, 4&#10;2 skipped" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished 3, 4&#10;2 skipped" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$gradient.coverage" NAME="gradient 覆盖结果" MODIFIED="1695275945554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
-    <SUITE FILE_PATH="coverage/10_1_OpenCV$colorBlobAndLine.coverage" NAME="colorBlobAndLine 覆盖结果" MODIFIED="1695632540275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
-    <SUITE FILE_PATH="coverage/2023_09_13_opencv$EdgeDetect.coverage" NAME="EdgeDetect 覆盖结果" MODIFIED="1695276409409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$Main.coverage" NAME="Main 覆盖结果" MODIFIED="1696743285266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
     <SUITE FILE_PATH="coverage/2023_09_13_opencv$.coverage" NAME="轮廓 覆盖结果" MODIFIED="1695517970070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$BarCode.coverage" NAME="BarCode 覆盖结果" MODIFIED="1696740502317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$LineFeature.coverage" NAME="LineFeature 覆盖结果" MODIFIED="1696232631726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$ColorShapes.coverage" NAME="ColorShapes 覆盖结果" MODIFIED="1696741654639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
+    <SUITE FILE_PATH="coverage/10_1_OpenCV$colorBlobAndLine.coverage" NAME="colorBlobAndLine 覆盖结果" MODIFIED="1696735204183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
+    <SUITE FILE_PATH="coverage/2023_09_13_opencv$EdgeDetect.coverage" NAME="EdgeDetect 覆盖结果" MODIFIED="1695276409409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
     <SUITE FILE_PATH="coverage/10_1_OpenCV$surroundRect.coverage" NAME="surroundRect 覆盖结果" MODIFIED="1695527641037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />
     <SUITE FILE_PATH="coverage/10_1_OpenCV$viewHSV.coverage" NAME="viewHSV 覆盖结果" MODIFIED="1695622404651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singular" />
     <SUITE FILE_PATH="coverage/10_1_OpenCV$.coverage" NAME="轮廓 覆盖结果" MODIFIED="1695527125675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn/ImageTransformation" />

@@ -1,3 +1,4 @@
+import math
 import time
 
 import viewHSV
@@ -6,17 +7,29 @@ import cv2 as cv
 import numpy as np
 
 colors = {
+    'red': {
+        'low': np.array([0, 60, 60]),
+        'high': np.array([5, 255, 255])
+    },
+    'yellow': {
+        'low': np.array([26, 43, 46]),
+        'high': np.array([34, 255, 255])
+    },
     'green': {
         'low': np.array([35, 43, 46]),
         'high': np.array([77, 255, 255])
     },
-    'black': {
-        'low': np.array([0, 0, 0]),
-        'high': np.array([180, 255, 46])
-    },
     'blue': {
         'low': np.array([100, 43, 46]),
         'high': np.array([124, 255, 255])
+    },
+    'white': {
+        'low': np.array([0, 0, 221]),
+        'high': np.array([180, 30, 255])
+    },
+    'black': {
+        'low': np.array([0, 0, 0]),
+        'high': np.array([180, 255, 46])
     },
 }
 
@@ -85,6 +98,7 @@ def blacklines(bgr):
         Returns:
         - numpy.ndarray: Array of unique line segments, each containing [x1, y1, x2, y2].
         """
+
         def linedist(line1, line2):
             """
             Calculate distance of 2 lines
@@ -94,7 +108,6 @@ def blacklines(bgr):
             """
             x11, y11, x12, y12 = line1[0]
             x21, y21, x22, y22 = line2[0]
-
 
         unique_line_segments = []  # Store unique line segments
         for segment in line_segments:
@@ -127,10 +140,12 @@ def blacklines(bgr):
 
     hsv = cv.cvtColor(bgr, cv.COLOR_BGR2HSV)
     blc = cv.inRange(hsv, colors['black']['low'], colors['black']['high'])
+    x4, y4 = 219, 790
     blc = cv.erode(blc, None, iterations=6)
     blc = cv.dilate(blc, None, iterations=6)
     bcnt = cv.findContours(blc, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)[0]
     wimg = np.zeros(bgr.shape, np.uint8)
+    x3, y3 = 275, 532
     for cnt in bcnt:
         cir = cv.minEnclosingCircle(cnt)
         cv.circle(wimg, (int(cir[0][0]), int(cir[0][1])), int(cir[1]) + 3, (255, 255, 255), -1)
@@ -148,19 +163,59 @@ def blacklines(bgr):
         n += 1
         x1, y1, x2, y2 = line[0]
         cv.line(bgr, (x1, y1), (x2, y2), (127, 127, 0), 2)
-        cv.putText(bgr, f"{n}", (x1, y1), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
+        cv.putText(bgr, f"l{n}", (x1, y1), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
         # cv.putText(bgr, f"{n}", (x2, y2), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1)
     print(len(lines))
-    cv.imshow("BLC", blc)
+    cv.putText(bgr, "Crossing", (x3, y3), cv.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
+    cv.putText(bgr, "Right Angle", (x4, y4), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
+    # cv.imshow("BLC", blc)
     cv.imshow("Blacks", bgr)
+
+
+def blueLine(bgr):
+    def distance(pos1, pos2):
+        d = math.sqrt((pos2[0] - pos1[0]) ** 2 + (pos2[1] - pos1[2]) ** 2)
+        return d
+
+    gray = cv.cvtColor(bgr, cv.COLOR_BGR2GRAY)
+    hsv = cv.cvtColor(bgr, cv.COLOR_BGR2HSV)
+    reds = cv.inRange(hsv, colors['red']['low'], colors['red']['high'])
+    reds = cv.morphologyEx(reds, cv.MORPH_CLOSE, np.ones((5, 5), np.uint8))
+    # cv.imshow("reds", reds)
+    contours, hierarchy = cv.findContours(reds, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+    print(len(contours))
+    # print(contours)
+    ends = [[], []]
+    for n in range(len(contours)):
+        cnt = contours[n]
+        (x, y), r = cv.minEnclosingCircle(cnt)
+        # cv.circle(bgr, (int(x), int(y)), int(r), (0, 0, 0), 2)
+        ends[n] = [int(x), int(y)]
+    # cv.drawContours(bgr, contours, -1, (0, 0, 0), 2)
+    gray = np.float32(gray)
+    cv.putText(bgr, "B", ends[0] if ends[0][0] < ends[1][0] else ends[1],  cv.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 0), 2)
+    cv.putText(bgr, "A", ends[0] if ends[0][0] > ends[1][0] else ends[1],  cv.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 0), 2)
+    # 输入图像必须是float32， 最后一个参数[0.04,0.06]
+    dst = cv.cornerHarris(gray, 2, 3, 0.06)
+    # cv.imshow('dst', dst)
+    dst = cv.dilate(dst, None)
+
+    gr = cv.cvtColor(gray, cv.COLOR_GRAY2BGR)
+    gr[dst > 0.9 * dst.max()] = [0, 0, 255]
+    # cv.imshow("gr", gr)
+    # print(dst > 0.9 * dst.max())
+    cv.imshow("bgr", bgr)
 
 
 if __name__ == "__main__":
     p5 = cv.imread("../assets/tasks/page05.png")
+    p6 = cv.imread("../assets/tasks/page06.png")
     while True:
         # greenLineCircle(p5)
         # time.sleep(1)
-        blacklines(p5)
+        # blacklines(p5)
+        # time.sleep(1)
+        blueLine(p6)
         if cv.waitKey(0) & 0xff == ord('q'):
             break
     cv.destroyAllWindows()

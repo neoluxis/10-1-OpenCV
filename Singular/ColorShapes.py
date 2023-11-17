@@ -41,7 +41,7 @@ def find(bgr):
     for color in colors.keys():
         blb = cv.inRange(hsv, colors[color]['low'], colors[color]['high'])
         blb = cv.erode(blb, None, iterations=2)
-        cv.imshow("blb", blb)
+        # cv.imshow("blb", blb)
         cv.waitKey(1)
         cnts, _ = cv.findContours(blb.copy(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
         # cnts = cnts[0]
@@ -65,12 +65,12 @@ def find(bgr):
                 shape = strs['rec']
             cv.drawContours(bgr, [c], -1, (0, 255, 0), 2)
             cv.imshow("bgr", bgr)
-            cv.waitKey(0)
+            cv.waitKey(1)
             restr += shape + strs[color] + '; '
             restr += "面积: " + str(area) + '; '
             restr += f"X: {c[0][0][0]}; Y: {c[0][0][1]};\n"
             # print(shape + strs[color])
-
+    cv.waitKey(0)
     return restr
 
 
